@@ -14,7 +14,7 @@
 
 ## 🔗 Main profile
 
-For production projects and recent work:  
+For learning-reference and recent work:  
 **→ [@Br111t](https://github.com/Br111t)**
 
 
