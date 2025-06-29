@@ -1,6 +1,6 @@
 # 🎓 Coursework Archive
 
-> A read-only archive of coursework from 2019–2025.  
+> A read-only archive of coursework from 2019–current.  
 > Includes Python, SQL, Java, testing, web development, and build tool fundamentals.
 
 ## 📚 Repositories
