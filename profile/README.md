@@ -16,3 +16,6 @@
 
 For production projects and recent work:  
 **→ [@Br111t](https://github.com/Br111t)**
+
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
