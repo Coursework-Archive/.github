@@ -8,14 +8,14 @@
 ## 🧰 Skills & Coursework Activity
 
 <!-- ACTIVITY-TABLE:START -->
-| Repository | Last Activity |
-|------------|---------------|
-| [python-coursework](https://github.com/Coursework-Archive/python-coursework) | 🌱 0 days ago |
-| [sql-fundamentals](https://github.com/Coursework-Archive/sql-fundamentals) | 🍁 33 days ago |
-| [java-core-fundamentals](https://github.com/Coursework-Archive/java-core-fundamentals) | 🍁 33 days ago |
-| [java-testing-labs](https://github.com/Coursework-Archive/java-testing-labs) | 🍁 33 days ago |
-| [build-tool-fundamentals](https://github.com/Coursework-Archive/build-tool-fundamentals) | 🍁 33 days ago |
-| [web-dev-coursework](https://github.com/Coursework-Archive/web-dev-coursework) | 🍁 33 days ago |
+| Repository | Activity |
+|------------|----------|
+| [python-coursework](https://github.com/Coursework-Archive/python-coursework) | 🌿 2 commits |
+| [sql-fundamentals](https://github.com/Coursework-Archive/sql-fundamentals) | 🍁 Jun 29, 2025 |
+| [java-core-fundamentals](https://github.com/Coursework-Archive/java-core-fundamentals) | 🍁 Jun 29, 2025 |
+| [java-testing-labs](https://github.com/Coursework-Archive/java-testing-labs) | 🍁 Jun 29, 2025 |
+| [build-tool-fundamentals](https://github.com/Coursework-Archive/build-tool-fundamentals) | 🍁 Jun 29, 2025 |
+| [web-dev-coursework](https://github.com/Coursework-Archive/web-dev-coursework) | 🍁 Jun 29, 2025 |
 <!-- ACTIVITY-TABLE:END -->
 
 
