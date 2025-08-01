@@ -12,6 +12,16 @@
 - [build-tool-fundamentals](https://github.com/Coursework-Archive/build-tool-fundamentals)
 - [web-dev-coursework](https://github.com/Coursework-Archive/web-dev-coursework)
 
+## ⏱️ Recent Activity
+
+![GitHub last commit](https://img.shields.io/github/last-commit/Coursework-Archive/python-coursework?label=python-coursework&style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/Coursework-Archive/sql-fundamentals?label=sql-fundamentals&style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/Coursework-Archive/java-core-fundamentals?label=java-core-fundamentals&style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/Coursework-Archive/java-testing-labs?label=java-testing-labs&style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/Coursework-Archive/build-tool-fundamentals?label=build-tools&style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/Coursework-Archive/web-dev-coursework?label=web-dev-coursework&style=flat-square)
+
+
 ## 🔗 Main profile
 
 For learning-reference and recent work:  
