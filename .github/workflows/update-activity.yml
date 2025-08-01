@@ -35,13 +35,6 @@ jobs:
       - name: Update profile README
         run: python scripts/update-coursework-activity.py
 
-      - name: Dump generated table
-        run: |
-          echo "::group::ACTIVITY section from profile/README.md"
-          sed -n '/<!-- ACTIVITY-TABLE:START -->/,/<!-- ACTIVITY-TABLE:END -->/p' profile/README.md
-          echo "::endgroup::"
-
-
       # 5) commit & push back any changes to profile/README.md
       - name: Commit & push changes
         env:
