@@ -2,7 +2,7 @@ name: Update Coursework Activity
 
 on:
   schedule:
-    - cron: '0 4 * * 1'  # Every Monday at 04:00 UTC
+    - cron: '0 4 * * 1'
   workflow_dispatch:
 
 permissions:
@@ -12,11 +12,18 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
+      - name: Checkout .github repo
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.COURSEWORK_PAT }}
           fetch-depth: 0
+
+      - name: Checkout target repo (Coursework-Archive/.github)
+        uses: actions/checkout@v3
+        with:
+          repository: Coursework-Archive/.github
+          token: ${{ secrets.COURSEWORK_PAT }}
+          path: target
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -28,10 +35,14 @@ jobs:
 
       - name: Run activity script and update README
         run: python scripts/update-coursework-activity.py
+        working-directory: .
 
       - name: Commit and push
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git commit -am "🤖 Update coursework activity"
+          git add README.md
+          git commit -m "🤖 Update coursework activity"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.COURSEWORK_PAT }}
