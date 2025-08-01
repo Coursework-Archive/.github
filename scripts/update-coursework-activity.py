@@ -33,14 +33,16 @@ def build_table():
         result = get_last_commit(repo)
         if result:
             days_ago, short_date = result
-            if days_ago <= 6:
-                display = f"🌿 {days_ago} days ago"
-            elif days_ago <= 14:
-                display = f"🍁 {days_ago} days ago"
+            if days_ago <= 14:
+                display = f"🌱 {days_ago} days ago"    # up to 2 weeks
             elif days_ago <= 30:
-                display = f"🍂 {days_ago} days ago"
+                display = f"🌿 {days_ago} days ago"    # 2–4 weeks
+            elif days_ago <= 60:
+                display = f"🍁 {days_ago} days ago"    # 1–2 months
+            elif days_ago <= 90:
+                display = f"🍂 {days_ago} days ago"    # 2–3 months
             else:
-                display = f"🕸️ {short_date}"
+                display = f"🌌 {short_date}"           # older than 3 months
             lines.append(f"| [{repo}](https://github.com/{ORG}/{repo}) | {display} |")
     return "\n".join(lines)
 
