@@ -5,7 +5,7 @@
 
 ## 📚 Repositories
 
-- [python-coursework](https://github.com/Coursework-Archive/python-coursework)
+- [python-coursework](https://github.com/Coursework-Archive/python-coursework) ![GitHub last commit](https://img.shields.io/github/last-commit/Coursework-Archive/python-coursework?label=python-coursework&style=flat-square)
 - [sql-fundamentals](https://github.com/Coursework-Archive/sql-fundamentals)
 - [java-core-fundamentals](https://github.com/Coursework-Archive/java-core-fundamentals)
 - [java-testing-labs](https://github.com/Coursework-Archive/java-testing-labs)
@@ -14,7 +14,7 @@
 
 ## ⏱️ Recent Activity
 
-![GitHub last commit](https://img.shields.io/github/last-commit/Coursework-Archive/python-coursework?label=python-coursework&style=flat-square)
+
 ![GitHub last commit](https://img.shields.io/github/last-commit/Coursework-Archive/sql-fundamentals?label=sql-fundamentals&style=flat-square)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Coursework-Archive/java-core-fundamentals?label=java-core-fundamentals&style=flat-square)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Coursework-Archive/java-testing-labs?label=java-testing-labs&style=flat-square)
