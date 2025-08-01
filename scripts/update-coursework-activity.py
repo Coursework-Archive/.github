@@ -77,4 +77,4 @@ def replace_section(content, marker, new_text):
     )
 
 # === Run update
-update_readme("README.md")
+update_readme("profile/README.md")
