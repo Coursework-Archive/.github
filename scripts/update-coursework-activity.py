@@ -52,11 +52,11 @@ def build_table():
         # Step 1: frequency in past week
         count = get_commit_count_last_week(repo)
         if count >= 3:
-            display = f"🌳 {count} commits"
+            display = f"🌳 {short_date}"
         elif count == 2:
-            display = f"🌿 {count} commits"
+            display = f"🌿 {short_date}"
         elif count == 1:
-            display = f"🌱 {count} commit"
+            display = f"🌱 {short_date}"
         else:
             # Step 2: fallback to recency buckets
             if days_ago > 90:
