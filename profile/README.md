@@ -18,8 +18,6 @@
 
 ---
 
-## 🧭 Educational Repository
-
 This coursework is maintained and archived by [**@Br111t**](https://github.com/Br111t)  
 Feel free to explore my main profile for recent work.
 
