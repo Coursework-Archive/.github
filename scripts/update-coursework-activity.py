@@ -1,5 +1,5 @@
+from datetime import datetime, timezone, timedelta
 import requests
-from datetime import datetime, timezone
 from dateutil.parser import parse as parse_date
 
 ORG = "Coursework-Archive"
@@ -16,34 +16,61 @@ now = datetime.now(timezone.utc)
 
 def get_last_commit(repo):
     url = f"https://api.github.com/repos/{ORG}/{repo}/commits?per_page=1"
-    response = requests.get(url)
-    if response.status_code != 200:
+    resp = requests.get(url)
+    if resp.status_code != 200:
         return None
-    commit = response.json()[0]
+    commit = resp.json()[0]
     commit_date = parse_date(commit["commit"]["committer"]["date"])
     days_ago = (now - commit_date).days
     short_date = commit_date.strftime("%b %d, %Y")
     return days_ago, short_date
 
+
+def get_commit_count_last_week(repo):
+    week_ago = now - timedelta(days=7)
+    url = (
+        f"https://api.github.com/repos/{ORG}/{repo}/commits"
+        f"?since={week_ago.isoformat()}&per_page=100"
+    )
+    resp = requests.get(url)
+    if resp.status_code != 200:
+        return 0
+    return len(resp.json())
+    
+
 def build_table():
-    lines = []
-    lines.append("| Repository | Last Activity |")
-    lines.append("|------------|---------------|")
+    lines = [
+        "| Repository | Activity |",
+        "|------------|----------|",
+    ]
     for repo in REPOS:
-        result = get_last_commit(repo)
-        if result:
-            days_ago, short_date = result
-            if days_ago <= 14:
-                display = f"🌱 {days_ago} days ago"    # up to 2 weeks
-            elif days_ago <= 30:
-                display = f"🌿 {days_ago} days ago"    # 2–4 weeks
-            elif days_ago <= 60:
-                display = f"🍁 {days_ago} days ago"    # 1–2 months
-            elif days_ago <= 90:
-                display = f"🍂 {days_ago} days ago"    # 2–3 months
+        last = get_last_commit(repo)
+        if not last:
+            continue
+        days_ago, short_date = last
+
+        # Step 1: frequency in past week
+        count = get_commit_count_last_week(repo)
+        if count >= 3:
+            display = f"🌳 {count} commits"
+        elif count == 2:
+            display = f"🌿 {count} commits"
+        elif count == 1:
+            display = f"🌱 {count} commit"
+        else:
+            # Step 2: fallback to recency buckets
+            if days_ago > 90:
+                display = f"🌊 {short_date}"     # > 3 months
+            elif days_ago > 60:
+                display = f"🍂 {short_date}"     # > 2 months
+            elif days_ago > 30:
+                display = f"🍁 {short_date}"     # > 1 month
             else:
-                display = f"🌌 {short_date}"           # older than 3 months
-            lines.append(f"| [{repo}](https://github.com/{ORG}/{repo}) | {display} |")
+                # no commits this week, but last commit within 30 days
+                display = f"🍁 {short_date}"
+
+        lines.append(f"| [{repo}](https://github.com/{ORG}/{repo}) | {display} |")
+
     return "\n".join(lines)
 
 def update_readme(path="README.md"):
