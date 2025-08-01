@@ -10,7 +10,7 @@
 <!-- ACTIVITY-TABLE:START -->
 | Repository | Activity |
 |------------|----------|
-| [python-coursework](https://github.com/Coursework-Archive/python-coursework) | 🌿 2 commits |
+| [python-coursework](https://github.com/Coursework-Archive/python-coursework) | 🌿 Aug 01, 2025 |
 | [sql-fundamentals](https://github.com/Coursework-Archive/sql-fundamentals) | 🍁 Jun 29, 2025 |
 | [java-core-fundamentals](https://github.com/Coursework-Archive/java-core-fundamentals) | 🍁 Jun 29, 2025 |
 | [java-testing-labs](https://github.com/Coursework-Archive/java-testing-labs) | 🍁 Jun 29, 2025 |
