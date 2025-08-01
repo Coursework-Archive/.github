@@ -1,5 +1,8 @@
 name: Update Org Activity Table
 
+permissions:
+  contents: write
+  
 # run every Monday at 04:00 UTC, or manually via the UI
 on:
   schedule:
@@ -12,8 +15,9 @@ jobs:
 
     steps:
       # 1) pull down the .github repo (so we get profile/README.md, scripts/, workflows/)
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
+        with:
+          persist-credentials: true   # ensures the checkout step sets up auth for git push
 
       # 2) get Python available
       - name: Set up Python
