@@ -5,7 +5,7 @@
 
 ---
 
-## 📦 Repository Index
+## 🧰 Skills & Coursework Activity
 
 <!-- ACTIVITY-TABLE:START -->
 | Repository | Last Activity |
