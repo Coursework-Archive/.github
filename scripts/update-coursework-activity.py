@@ -67,7 +67,7 @@ def build_table():
                 display = f"🍁 {short_date}"     # > 1 month
             else:
                 # no commits this week, but last commit within 30 days
-                display = f"🍁 {short_date}"
+                display = f"🍃 {short_date}"
 
         lines.append(f"| [{repo}](https://github.com/{ORG}/{repo}) | {display} |")
 
