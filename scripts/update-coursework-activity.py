@@ -60,14 +60,14 @@ def build_table():
         else:
             # Step 2: fallback to recency buckets
             if days_ago > 90:
-                display = f"🌊 {short_date}"     # > 3 months
+                display = f"🌊 {days_ago} days ago"     # > 3 months
             elif days_ago > 60:
-                display = f"🍂 {short_date}"     # > 2 months
+                display = f"🍂 {days_ago} days ago"     # > 2 months
             elif days_ago > 30:
-                display = f"🍁 {short_date}"     # > 1 month
+                display = f"🍁 {days_ago} days ago"     # > 1 month
             else:
                 # no commits this week, but last commit within 30 days
-                display = f"🍃 {short_date}"
+                display = f"🍃 {days_ago} days ago"
 
         lines.append(f"| [{repo}](https://github.com/{ORG}/{repo}) | {display} |")
 
