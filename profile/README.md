@@ -11,11 +11,11 @@
 | Repository | Activity |
 |------------|----------|
 | [python-coursework](https://github.com/Coursework-Archive/python-coursework) | 🌿 Aug 01, 2025 |
-| [sql-fundamentals](https://github.com/Coursework-Archive/sql-fundamentals) | 🍁 33 days ago |
-| [java-core-fundamentals](https://github.com/Coursework-Archive/java-core-fundamentals) | 🍁 33 days ago |
-| [java-testing-labs](https://github.com/Coursework-Archive/java-testing-labs) | 🍁 33 days ago |
-| [build-tool-fundamentals](https://github.com/Coursework-Archive/build-tool-fundamentals) | 🍁 33 days ago |
-| [web-dev-coursework](https://github.com/Coursework-Archive/web-dev-coursework) | 🍁 33 days ago |
+| [sql-fundamentals](https://github.com/Coursework-Archive/sql-fundamentals) | 🍁 35 days ago |
+| [java-core-fundamentals](https://github.com/Coursework-Archive/java-core-fundamentals) | 🍁 35 days ago |
+| [java-testing-labs](https://github.com/Coursework-Archive/java-testing-labs) | 🍁 35 days ago |
+| [build-tool-fundamentals](https://github.com/Coursework-Archive/build-tool-fundamentals) | 🍁 35 days ago |
+| [web-dev-coursework](https://github.com/Coursework-Archive/web-dev-coursework) | 🍁 35 days ago |
 <!-- ACTIVITY-TABLE:END -->
 
 
