@@ -9,7 +9,8 @@ REPOS = [
     "java-core-fundamentals",
     "java-testing-labs",
     "build-tool-fundamentals",
-    "web-dev-coursework"
+    "web-dev-coursework",
+    "js-ts-testing-labs"
 ]
 
 now = datetime.now(timezone.utc)
