@@ -10,14 +10,14 @@
 <!-- ACTIVITY-TABLE:START -->
 | Repository | Activity |
 |------------|----------|
-| [python-coursework](https://github.com/Coursework-Archive/python-coursework) | 🌊 182 days ago |
-| [sql-fundamentals](https://github.com/Coursework-Archive/sql-fundamentals) | 🌊 266 days ago |
-| [java-core-fundamentals](https://github.com/Coursework-Archive/java-core-fundamentals) | 🌊 266 days ago |
-| [java-testing-labs](https://github.com/Coursework-Archive/java-testing-labs) | 🌊 266 days ago |
-| [build-tool-fundamentals](https://github.com/Coursework-Archive/build-tool-fundamentals) | 🌊 266 days ago |
-| [web-dev-coursework](https://github.com/Coursework-Archive/web-dev-coursework) | 🌊 266 days ago |
-| [js-ts-testing-labs](https://github.com/Coursework-Archive/js-ts-testing-labs) | 🌊 175 days ago |
-| [math-through-code](https://github.com/Coursework-Archive/math-through-code) | 🍃 8 days ago |
+| [python-coursework](https://github.com/Coursework-Archive/python-coursework) | 🌊 189 days ago |
+| [sql-fundamentals](https://github.com/Coursework-Archive/sql-fundamentals) | 🌊 273 days ago |
+| [java-core-fundamentals](https://github.com/Coursework-Archive/java-core-fundamentals) | 🌊 273 days ago |
+| [java-testing-labs](https://github.com/Coursework-Archive/java-testing-labs) | 🌊 273 days ago |
+| [build-tool-fundamentals](https://github.com/Coursework-Archive/build-tool-fundamentals) | 🌊 273 days ago |
+| [web-dev-coursework](https://github.com/Coursework-Archive/web-dev-coursework) | 🌊 273 days ago |
+| [js-ts-testing-labs](https://github.com/Coursework-Archive/js-ts-testing-labs) | 🌊 182 days ago |
+| [math-through-code](https://github.com/Coursework-Archive/math-through-code) | 🍃 15 days ago |
 <!-- ACTIVITY-TABLE:END -->
 
 
