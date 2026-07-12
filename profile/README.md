@@ -17,7 +17,6 @@
 | [build-tool-fundamentals](https://github.com/Coursework-Archive/build-tool-fundamentals) | 🌊 377 days ago |
 | [web-dev-coursework](https://github.com/Coursework-Archive/web-dev-coursework) | 🌊 377 days ago |
 | [js-ts-testing-labs](https://github.com/Coursework-Archive/js-ts-testing-labs) | 🌊 286 days ago |
-| [math-through-code](https://github.com/Coursework-Archive/math-through-code) | 🌱 Jul 06, 2026 |
 <!-- ACTIVITY-TABLE:END -->
 
 
