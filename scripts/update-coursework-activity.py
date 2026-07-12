@@ -4,7 +4,7 @@ from dateutil.parser import parse as parse_date
 
 ORG = "Coursework-Archive"
 REPOS = [
-    "agentic-ai-coursework"
+    "agentic-ai-coursework",
     "math-through-code",
     "python-coursework",
     "sql-fundamentals",
