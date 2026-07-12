@@ -4,6 +4,8 @@ from dateutil.parser import parse as parse_date
 
 ORG = "Coursework-Archive"
 REPOS = [
+    "agentic-ai-coursework"
+    "math-through-code",
     "python-coursework",
     "sql-fundamentals",
     "java-core-fundamentals",
@@ -11,7 +13,6 @@ REPOS = [
     "build-tool-fundamentals",
     "web-dev-coursework",
     "js-ts-testing-labs",
-    "math-through-code"
 ]
 
 now = datetime.now(timezone.utc)
