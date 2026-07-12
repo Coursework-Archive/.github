@@ -10,6 +10,8 @@
 <!-- ACTIVITY-TABLE:START -->
 | Repository | Activity |
 |------------|----------|
+| [agentic-ai-coursework](https://github.com/Coursework-Archive/agentic-ai-coursework) | 🌿 Jul 12, 2026 |
+| [math-through-code](https://github.com/Coursework-Archive/math-through-code) | 🌱 Jul 06, 2026 |
 | [python-coursework](https://github.com/Coursework-Archive/python-coursework) | 🌊 293 days ago |
 | [sql-fundamentals](https://github.com/Coursework-Archive/sql-fundamentals) | 🌊 377 days ago |
 | [java-core-fundamentals](https://github.com/Coursework-Archive/java-core-fundamentals) | 🌊 377 days ago |
