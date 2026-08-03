@@ -10,15 +10,15 @@
 <!-- ACTIVITY-TABLE:START -->
 | Repository | Activity |
 |------------|----------|
-| [agentic-ai-coursework](https://github.com/Coursework-Archive/agentic-ai-coursework) | 🍃 8 days ago |
-| [math-through-code](https://github.com/Coursework-Archive/math-through-code) | 🍃 21 days ago |
-| [python-coursework](https://github.com/Coursework-Archive/python-coursework) | 🌊 308 days ago |
-| [sql-fundamentals](https://github.com/Coursework-Archive/sql-fundamentals) | 🌊 392 days ago |
-| [java-core-fundamentals](https://github.com/Coursework-Archive/java-core-fundamentals) | 🌊 392 days ago |
-| [java-testing-labs](https://github.com/Coursework-Archive/java-testing-labs) | 🌊 392 days ago |
-| [build-tool-fundamentals](https://github.com/Coursework-Archive/build-tool-fundamentals) | 🌊 392 days ago |
-| [web-dev-coursework](https://github.com/Coursework-Archive/web-dev-coursework) | 🌊 392 days ago |
-| [js-ts-testing-labs](https://github.com/Coursework-Archive/js-ts-testing-labs) | 🌊 301 days ago |
+| [agentic-ai-coursework](https://github.com/Coursework-Archive/agentic-ai-coursework) | 🍃 15 days ago |
+| [math-through-code](https://github.com/Coursework-Archive/math-through-code) | 🌳 Aug 01, 2026 |
+| [python-coursework](https://github.com/Coursework-Archive/python-coursework) | 🌊 315 days ago |
+| [sql-fundamentals](https://github.com/Coursework-Archive/sql-fundamentals) | 🌊 399 days ago |
+| [java-core-fundamentals](https://github.com/Coursework-Archive/java-core-fundamentals) | 🌊 399 days ago |
+| [java-testing-labs](https://github.com/Coursework-Archive/java-testing-labs) | 🌊 399 days ago |
+| [build-tool-fundamentals](https://github.com/Coursework-Archive/build-tool-fundamentals) | 🌊 399 days ago |
+| [web-dev-coursework](https://github.com/Coursework-Archive/web-dev-coursework) | 🌊 399 days ago |
+| [js-ts-testing-labs](https://github.com/Coursework-Archive/js-ts-testing-labs) | 🌊 308 days ago |
 <!-- ACTIVITY-TABLE:END -->
 
 
